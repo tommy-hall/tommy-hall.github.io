@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scope Blog</title>
+    <meta charset="utf-8">
+
+    <!-- 
+      Notice that we have three stylesheet links: the first two are for the Skeleton framework,
+      and the final one is for any custom styles we might need, like turning the background
+      bright pink.
+    
+      Please don't make the background pink... have a little pity on your teachers!
+    -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="./mainR.css" />
+  </head>
+  
+  <body>
+
+        <div class="header">
+        <h3>Tom Hall</h3>
+        <h5>Web Developer</h5>
+        
+        </div>
+        <br>
+        
+
+    <div class="container">
+      <div class="row">
+
+            <div class="row">
+            <div class="two columns">
+                    <a class="button button-primary" href="indexR.html">Home</a>
+                  </div>
+
+                
+                      <div class="two columns">
+                            <a class="button button-primary" href="contact.html">Contact</a>
+                          </div>
+                        </div><br>
+
+            <div class="row highlight">
+            <div class="twelve columns">
+
+              <h2>Scope</h2>
+                  
+              <ul>
+                  <li><strong>What 'scope' is, and how it works in JavaScript.</strong></li>
+
+                
+                  In JavaScript there are two types of scope:
+
+                <ol>
+                <li>Local scope</li>
+                <li>Global scope</li>
+                </ol>
+
+               <ul>
+                <li>JavaScript has function scope: Each function creates a new scope.</li>
+
+                <li>Scope determines the accessibility (visibility) of these variables.</li>
+
+                <li>Variables defined inside a function are not accessible (visible) from outside the function.</li>
+                </ul>
+
+                In <strong>Local JavaScript Variables</strong> variables declared within a JavaScript function, become LOCAL to the function. Local variables have local scope: They can only be accessed within the function.<br>
+                Since local variables are only recognized inside their functions, variables with the same name can be used in different functions. Local variables are created when a function starts, and deleted when the function is completed.<br>
+
+                <br>In <strong>Global JavaScript Variables</strong> variables declared outside a function, becomes GLOBAL. A global variable has global scope: All scripts and functions on a web page can access it.<br>
+
+                
+                <br><strong>Note </strong>in JavaScript, objects and functions are also variables. Scope determines the accessibility of variables, objects, and functions from different parts of the code. Also even if a value is assigned inside a function but
+                the variable has not been declared, it will automatically become a GLOBAL variable.<br><br>
+
+
+            
+ 
+    <div class="footer"></div>
+    
+
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
+
+
+
+
